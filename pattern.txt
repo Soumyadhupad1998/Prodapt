@@ -1,0 +1,21 @@
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int k,i, j, row = 3;       
+		for(i = 1; i <= row; i++)
+		{
+		//for loop for displaying space
+		for(k = i; k < row; k++)
+		{
+		System.out.print(" ");
+		}
+		for(j = 1; j <= (2 * i - 1); j++)
+		{
+		System.out.print("*");
+		}
+		
+		System.out.println();   
+		}   
+		} 
